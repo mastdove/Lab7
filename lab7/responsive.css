@@ -1,0 +1,43 @@
+@media screen { /* Стиль для отображения в браузере */
+    body {
+     font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+     font-size: 16 em; /* Размер шрифта */
+     color: #000080; /* Цвет текста */
+    }
+    h1 {
+     background: #faf0e6; /* Цвет фона под текстом */
+     border: 2px dashed #800000; /* Рамка вокруг заголовка */
+     color: #a0522d; /* Цвет текста */
+     padding: 7px; /* Поля вокруг текста */
+    }
+}
+@media print { /* Стиль для печати */
+	margin-right:50px;
+   body {
+     font-family: Times, 'Times New Roman', serif; /* Шрифт с засечками */
+    }
+    h1, h2, p {
+     color: #000; /* Черный цвет текста */
+    }
+   }
+   
+ 
+/* for 768px or less */
+@media screen and (max-width: 768px) {
+.one a {
+  padding: 1em;
+  background: none;
+  border-right: none;
+  color: #FFFF;
+}
+
+.one {
+	background: none;
+  border-right: none;
+	 background: none;
+	 display: block;
+        float:none;
+        width:auto;
+    }
+    
+}
